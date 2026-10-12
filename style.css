@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#tabs button {
+    padding: 8px 16px;
+    margin-right: 4px;
+    border: 1px solid #999;
+    background: #eee;
+    cursor: pointer;
+}
+
+#tabs button.active {
+    background: #ffd600;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 6px 10px;
+}
+
+th {
+    background: #f3f3f3;
+}
